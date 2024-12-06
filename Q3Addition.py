@@ -14,9 +14,8 @@ try:
         print("Your answer is correct!")
 
 
-    elif int(ans) == x+y:
+    elif int(ans) != x+y:
         print("Wrong!")
-        if ans!= int: 
-            print ("Your answer must be an integer!")
+        
 except ValueError:
     print("Your answer must be an integer!")
